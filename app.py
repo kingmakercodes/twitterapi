@@ -4,14 +4,14 @@ def create_api():
 
     # setting up Twitter API credentials
 
-    consumer_key= '9Ad6e317EpV0D5VRIP3NnJDCE'
-    consumer_secret= 'Qr1ugCdP1HNOIp8tYgcdThlt9I7tGyYuYOBjDuaIio1bXe5m5e'
+    api_key= '9Ad6e317EpV0D5VRIP3NnJDCE'
+    api_secret= 'Qr1ugCdP1HNOIp8tYgcdThlt9I7tGyYuYOBjDuaIio1bXe5m5e'
     access_token= '1847303622918303744-w0v9642QfKoWV4PEKJna9cG1Z0NemA'
     access_token_secret= '9wdpvwZo7k7KMdSZKW8gzyjcEINXK92WBOV8WiBISXzzi'
 
     client= tweepy.Client(
-        consumer_key=consumer_key,
-        consumer_secret=consumer_secret,
+        consumer_key=api_key,
+        consumer_secret=api_secret,
         access_token=access_token,
         access_token_secret=access_token_secret
     )

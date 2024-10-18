@@ -1,4 +1,4 @@
-# information on this Twitter api is found in about_api.txt
+# information on this Twitter api is found in devjournal.txt
 import tweepy
 
 

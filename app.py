@@ -6,11 +6,10 @@ import tweepy
 def create_api():
 
     # setting up Twitter API credentials
-
-    api_key= '9Ad6e317EpV0D5VRIP3NnJDCE'
-    api_secret= 'Qr1ugCdP1HNOIp8tYgcdThlt9I7tGyYuYOBjDuaIio1bXe5m5e'
-    access_token= '1847303622918303744-w0v9642QfKoWV4PEKJna9cG1Z0NemA'
-    access_token_secret= '9wdpvwZo7k7KMdSZKW8gzyjcEINXK92WBOV8WiBISXzzi'
+    api_key= ''
+    api_secret= ''
+    access_token= ''
+    access_token_secret= ''
 
     client= tweepy.Client(
         consumer_key=api_key,
@@ -23,12 +22,12 @@ def create_api():
 
 
 # Step 2: Create a function to tweet
-def tweet_message(client, message="Tweet that idea into existence. Now!"):
+def tweet_message(client, message='Have you ever tweeted something into existence?'):
     try:
         response = client.create_tweet(text=message)
         print(f"Tweet posted successfully! Tweet ID: {response.data['id']}")
     except Exception as e:
-        print("Error while posting tweet", e)
+        print(f"Error while posting tweet, {e}")
 
 
 # run the application

@@ -1,7 +1,7 @@
 ABOUT THE APPLICATION
 
 This just a script test building a Twitter api that will automate
-a Twitter account and monetise it's content.
+a Twitter account.
 
-v1.0, Friday, October 18, 2024.
-For now, this api just tweets when the app is run.
+v1.01, Friday October 18, 2024.
+For now, this api just tweets only when the app is run.
